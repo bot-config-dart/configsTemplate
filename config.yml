@@ -1,3 +1,10 @@
 admin_roles:
     - " "
 server_id: " "
+activity: "Je suis en dev par Panda_Guerrier !"
+roles:
+    join_role: " "
+    admin_role: " "
+
+# mettez votre règlement ici tout en entier, remplacez les sauts de lignes par des \n
+rules: "Pas d'insultes\nPas de flood\nNe mentez pas !"
