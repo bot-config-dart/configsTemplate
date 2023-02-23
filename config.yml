@@ -5,6 +5,14 @@ activity: "Je suis en dev par Panda_Guerrier !"
 roles:
     join_role: " "
     admin_role: " "
+    select_roles:
+        - id: "role id"
+          name: "role name"
+          emoji: "🫔"
+        - id: "role id2"
+          name: "role name2"
+          emoji: "🗑"
+
 
 # mettez votre règlement ici tout en entier, remplacez les sauts de lignes par des \n
 rules: "Pas d'insultes\nPas de flood\nNe mentez pas !"
