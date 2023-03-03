@@ -1,10 +1,10 @@
-admin_roles:
-    - " "
 server_id: " "
-activity: "Je suis en dev par Panda_Guerrier !"
+activity: "Je suis dev par Panda_Guerrier !"
+admin_roles:
+  - ""
 roles:
-    join_role: " "
-    admin_role: " "
+    join_role: ""
+    admin_role: ""
     select_roles:
         - id: "role id"
           name: "role name"
@@ -12,6 +12,9 @@ roles:
         - id: "role id2"
           name: "role name2"
           emoji: "🗑"
+channels:
+  welcome: ""
+  suggestion: ""
 
 
 # mettez votre règlement ici tout en entier, remplacez les sauts de lignes par des \n
