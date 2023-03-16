@@ -1,6 +1,6 @@
 # Variables:
 #
-#    {giveaway}, {description}, {lot}, {channel}, {message}, {duration} (le temps restant), {id} (l'id du giveaway), {winners.number} (le nombre de gagnants maximunm)
+#    {giveaway} = le titre du giveaway, {description}, {lot}, {channel}, {message}, {duration} (le temps restant), {id} (l'id du giveaway), {winners.number} (le nombre de gagnants maximunm)
 #
 #    UNIQUEMENT pour le `victory` et `end`:
 #
@@ -25,8 +25,5 @@ no_winners:
 end:
   title: ":tada: Giveaway terminé :tada:"
   description: "Le giveaway est terminé !\n\nLot: {lot},\nGagnants: {winners}"
-end_send:
-  title: "Giveaway terminé !"
-  description: "Le giveaway est fini, cliquez sur le bouton pour y accèder, gagnants: {winners}"
 buttons:
   go_to_giveaway: "/\ Voir le giveaway /\ "
