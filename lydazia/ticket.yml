@@ -1,4 +1,6 @@
 logs_channel: " "
+close_categorie: "000"
+
 types:
   - id: "test"
     name: "Name Test"
