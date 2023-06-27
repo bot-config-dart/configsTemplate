@@ -1,7 +1,7 @@
 server_id: "834522966732701706"
 activity: "Je suis en dev par Panda_Guerrier !"
 antibot: false # si l'anti bot est actif ou non
-mc_ip: "mc.hypixel.net" # l'ip du serveur minecraft
+mc_ip: "play.lydazia.fr" # l'ip du serveur minecraft
 enable_leave: true # si le message de leave est activé ou non
 rules:
   message_id: "1122574616993468517" # l'id du message des règles
