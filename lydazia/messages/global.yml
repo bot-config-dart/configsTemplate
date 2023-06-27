@@ -46,9 +46,15 @@ setup:
     title: "Règlement"
     description: "Veuillez être réspectueux et respecter le règlement"
 welcome:
-  title: "Bienvenue sur {guild}"
-  description: "{user} tu as été invité par {inviter}, qui comptabilise désormais {actual} invitations !"
-  footer: "Nous sommes désormais {members} membres !"
+  normal:
+    title: "Bienvenue sur {guild}"
+    description: "{user} tu as été invité par {inviter}, qui comptabilise désormais {actual} invitations !"
+    footer: "Nous sommes désormais {members} membres !"
+  vanity:
+    title: "Bienvenue sur {guild}"
+    description: "{user} tu as été invité en utilisant la vanity url !"
+    footer: "Nous sommes désormais {members} membres !"
+  message_two: "{user} a rejoint le serveur, invité par {inviter.tag} qui comptabilise désormais {actual} invitations !"
 leave:
   title: "Aurevoir {user}"
   description: "Il a été invité par {inviter}, qui a désormais {actual} invitations."
